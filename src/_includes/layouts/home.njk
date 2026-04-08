@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+---
+
+<p class="kicker kickerSubhead">Eagráin</p>
+
+<ul class="list homeCards" aria-label="Liosta eagráin">
+  {% for issue in collections.issues %}
+    <li class="listItem">
+      <p class="listTitle" style="margin:0 0 6px;">
+        <a href="{{ issue.url | url(site.pathPrefix) }}">{{ issue.data.title }}</a>
+      </p>
+      <p class="listMeta">
+        {{ issue.date | readableDate }}
+      </p>
+    </li>
+  {% endfor %}
+</ul>
+

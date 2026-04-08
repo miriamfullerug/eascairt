@@ -1,0 +1,69 @@
+---
+layout: layouts/base.njk
+headContent: |
+  <script type="text/javascript" src="https://phoneticsrv3.lcs.tcd.ie/abair_webreader/js/abair-web-ui.js"></script>
+---
+
+<p class="kicker">
+  <a href="{{ ('/issues/' + issueSlug + '/') | url(site.pathPrefix) }}">← Ar ais ċuig an gclár</a>
+</p>
+
+<section class="paperPanel">
+  <div class="articleColumn">
+    <h1>{{ title }}</h1>
+    {% if subtitle %}
+      <p class="subtitle">{{ subtitle }}</p>
+    {% endif %}
+    <p class="meta authorMeta">{{ author }}</p>
+
+    <div class="abairPlayer">
+      <div id="abair-player"></div>
+    </div>
+
+    <div id="alt-corp" class="prose{% if poem %} poemBody{% endif %}" data-dialect="{{ dialect | default('') }}">
+      {{ content | safe }}
+    </div>
+    
+    {% set issueArticles = collections.articles | where("issueSlug", issueSlug) | sortByOrder %}
+    {% set pn = issueArticles | prevNextInIssue(page.url) %}
+
+    <nav class="navRow" aria-label="Alt roimhe seo / alt ina dhiaidh seo">
+      <div>
+        {% if pn.prev %}
+          <a href="{{ pn.prev.url | url(site.pathPrefix) }}">← {{ pn.prev.data.title }}</a>
+        {% endif %}
+      </div>
+      <div style="text-align:right;">
+        {% if pn.next %}
+          <a href="{{ pn.next.url | url(site.pathPrefix) }}">{{ pn.next.data.title }} →</a>
+        {% endif %}
+      </div>
+    </nav>
+  </div>
+</section>
+
+<script>
+  function positionAbairWebreader() {
+    let myContainer = document.getElementById('alt-corp')
+    if (!myContainer) { return }
+    myContainer.setAttribute('abair-wr', 'content')
+    let wr = document.querySelector('abair-wr-ui')
+    let container = document.getElementById('abair-player')
+    if (container && wr) { container.appendChild(wr) }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    // The ABAIR web component can hydrate after DOMContentLoaded,
+    // so we retry briefly until the <abair-wr-ui> element exists.
+    positionAbairWebreader()
+    let attempts = 0
+    let timer = setInterval(function () {
+      attempts += 1
+      positionAbairWebreader()
+      if (document.querySelector('abair-wr-ui') || attempts >= 20) {
+        clearInterval(timer)
+      }
+    }, 250)
+  })
+</script>
+

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ga">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      {% if title %}{{ title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}
+    </title>
+    {% if site.description %}<meta name="description" content="{{ site.description }}" />{% endif %}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="preload" as="image" href="{{ '/assets/img/cover-image.png' | url(site.pathPrefix) }}" fetchpriority="high">
+
+    <style>
+      /* Critical CSS to avoid background “pop-in” before site.css loads */
+      :root { --paper: #f6f1e5; }
+      .siteBg,
+      .siteBgWash {
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+      }
+
+      .siteBg {
+        z-index: 0;
+        background-image: url('{{ "/assets/img/cover-image.png" | url(site.pathPrefix) }}');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 60% 15%;
+        opacity: 0.72;
+        filter: saturate(0.9) contrast(0.9);
+        transform: scale(1.05);
+      }
+
+      .siteBgWash {
+        z-index: 1;
+        background:
+          radial-gradient(900px 520px at 55% 18%, rgba(246, 241, 229, 0.08) 0%, rgba(246, 241, 229, 0.38) 65%, rgba(246, 241, 229, 0.50) 100%),
+          linear-gradient(180deg, rgba(246, 241, 229, 0.46) 0%, rgba(246, 241, 229, 0.46) 100%);
+      }
+
+      body {
+        background-color: #f6f1e5;
+      }
+    </style>
+
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | url(site.pathPrefix) }}" />
+
+    {% if headContent %}{{ headContent | safe }}{% endif %}
+  </head>
+  <body style="--site-bg-url: url('{{ '/assets/img/cover-image.png' | url(site.pathPrefix) }}');">
+    <div class="siteBg" aria-hidden="true"></div>
+    <div class="siteBgWash" aria-hidden="true"></div>
+    <div class="wrap">
+      {% include "partials/site-header.njk" %}
+      <main>
+        {{ content | safe }}
+      </main>
+      {% include "partials/site-footer.njk" %}
+    </div>
+  </body>
+</html>
+

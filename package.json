@@ -1,0 +1,16 @@
+{
+  "name": "eascairt",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve --watch",
+    "new:article": "node scripts/new-article.cjs",
+    "new:issue": "node scripts/new-issue.cjs"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
+

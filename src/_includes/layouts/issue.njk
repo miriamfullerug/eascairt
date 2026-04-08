@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+---
+
+<p class="kicker">
+  <a href="{{ '/' | url(site.pathPrefix) }}">← Ar ais</a>
+</p>
+<section class="paperPanel">
+  <h1>{{ title }}</h1>
+  <p class="meta">{{ date | readableDate }}</p>
+
+  {% set issueArticles = collections.articles | where("issueSlug", issueSlug) | sortByOrder %}
+  <h2>Clár</h2>
+  <ul class="list" aria-label="Liosta altanna san eagrán seo">
+    {% for a in issueArticles %}
+      <li class="listItem">
+        <p class="listTitle" style="margin:0 0 6px;">
+          <a href="{{ a.url | url(site.pathPrefix) }}">{{ a.data.title }}</a>
+        </p>
+        <p class="listMeta authorMeta">{{ a.data.author }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+

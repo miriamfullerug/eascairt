@@ -1,0 +1,14 @@
+<header class="siteHeader">
+  <div class="brand">
+    <a href="{{ '/' | url(site.pathPrefix) }}">
+      <div class="brandTitle">{{ site.title }}</div>
+    </a>
+    <div class="brandTagline">Iris nua Ollscoil na Gailliṁe</div>
+  </div>
+  {% if page.url != "/" %}
+    <div class="siteHeaderRight">
+      <a class="homeBtn" href="{{ '/' | url(site.pathPrefix) }}">Baile</a>
+    </div>
+  {% endif %}
+</header>
+
