@@ -3,7 +3,12 @@ module.exports = function () {
   return {
     title: "Eascairt",
     description: "Iris nua Ollscoil na Gaillimhe",
-    pathPrefix: isProd ? "/eascairt/" : "/"
+    // Jekyll-equivalents:
+    // - baseurl: "" (no path prefix)
+    // - url: "https://eascairt.ie"
+    baseurl: "",
+    url: "https://eascairt.ie",
+    pathPrefix: "/"
   };
 };
 

@@ -1,7 +1,7 @@
 module.exports = function (eleventyConfig) {
   const isProd = process.env.NODE_ENV === "production";
-  // Local dev server typically runs at `/`, GitHub Pages uses `/eascairt/`.
-  const pathPrefix = isProd ? "/eascairt/" : "/";
+  // Site is served at the apex domain (no path prefix).
+  const pathPrefix = "/";
 
   // Static assets
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
