@@ -1,0 +1,55 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.people
+  size: 1
+  alias: person
+permalink: "fuinn/daoine/{{ person.slug }}/index.html"
+---
+
+<p class="kicker">
+  <a href="{{ '/fuinn/' | url(site.pathPrefix) }}">← Ar ais</a>
+</p>
+
+<section class="paperPanel">
+  {% if person.profile %}
+    {% if person.profile.data.photo %}
+      <p style="margin: 0 0 2px; text-align: center;">
+        <img
+          src="{{ person.profile.data.photo | url(site.pathPrefix) }}"
+          alt="Portráid de {{ person.name }}"
+          style="max-height: 250px; width: auto;"
+        />
+      </p>
+    {% endif %}
+    {% if person.profile.templateContent %}
+      <div class="prose">
+        {{ person.profile.templateContent | safe }}
+      </div>
+    {% endif %}
+  {% endif %}
+
+  <h1 style="margin-top: 0; margin-bottom: 10px; text-align: center;">{{ person.name }}</h1>
+
+  <h2>Saoṫar</h2>
+  <ul class="list" aria-label="Liosta altanna leis an duine seo">
+    {% for a in person.articles %}
+      <li class="listItem">
+        <p class="listTitle" style="margin:0 0 6px;">
+          <a href="{{ a.url | url(site.pathPrefix) }}">{{ a.data.title }}</a>
+        </p>
+        {% if a.data.issueSlug %}
+          <p class="listMeta authorMeta" style="margin:0;">
+            {% set issue = (collections.issues | where("issueSlug", a.data.issueSlug))[0] %}
+            {% if issue %}
+              {{ issue.data.title }}
+            {% else %}
+              {{ a.data.issueSlug }}
+            {% endif %}
+          </p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+

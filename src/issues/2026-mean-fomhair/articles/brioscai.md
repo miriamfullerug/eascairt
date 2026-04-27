@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 title: "Brioscaí Ṁiriam"
-author: "Le Miriam Nic an Úcaire"
+author: "Miriam Nic an Úcaire"
 issueSlug: "2026-mean-fomhair"
 dialect: "connacht"
 order: 11

@@ -17,7 +17,13 @@ layout: layouts/base.njk
         <p class="listTitle" style="margin:0 0 6px;">
           <a href="{{ a.url | url(site.pathPrefix) }}">{{ a.data.title }}</a>
         </p>
-        <p class="listMeta authorMeta">{{ a.data.author }}</p>
+        <p class="listMeta authorMeta">
+          {% if a.data.authors %}
+            {{ a.data.authors | authorBylineList }}
+          {% else %}
+            {{ a.data.author | authorByline }}
+          {% endif %}
+        </p>
       </li>
     {% endfor %}
   </ul>

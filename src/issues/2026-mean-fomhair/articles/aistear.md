@@ -2,7 +2,9 @@
 layout: layouts/article.njk
 title: "Aistear Aisrtiúċáin"
 subtitle: "Seo píosa a ḃailiġ Eilís Ní Ḃroin ón aistriṫeoir agus iarṁac léinn, Néaṁann Ní Ḋonnġaile. Tugtar léargas ar aistear gairme Néaṁainn go dtí seo sa slioċt ṫíos."
-author: "le Néaṁann Ní Ḋonnġaile"
+authors:
+  - "Eilís Ní Ḃroin"
+  - "Néaṁann Ní Ḋonnġaile"
 issueSlug: "2026-mean-fomhair"
 dialect: "ulster"
 order: 7

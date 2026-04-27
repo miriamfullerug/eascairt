@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 title: "Taiġde ar bun ċun Tástáil Ċognaíoċ Montréal (MoCA) a Ḟorbairt i nGaelainn"
-author: "Le hÍde Ní Ifearnáin"
+author: "Íde Ní Ifearnáin"
 issueSlug: "2026-mean-fomhair"
 dialect: "munster"
 order: 6
