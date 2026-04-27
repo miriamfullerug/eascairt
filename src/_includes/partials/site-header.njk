@@ -8,8 +8,9 @@
   <div class="siteHeaderRight">
     {% if page.url != "/" %}
       <a class="homeBtn" href="{{ '/' | url(site.pathPrefix) }}">Baile</a>
+    {% else %}
+      <a class="homeBtn" href="{{ '/fuinn/' | url(site.pathPrefix) }}">Fúinn</a>
     {% endif %}
-    <a class="homeBtn" href="{{ '/fuinn/' | url(site.pathPrefix) }}">Fúinn</a>
   </div>
 </header>
 
