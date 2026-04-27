@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 title: "Ar do ġaḃáil trí Ċorca Ḋuiḃne ḋuit…"
 subtitle: "Seo hiad mo ṁoltaí daoiḃ is siḃ a gaḃáil trí Ġaeltaċt Ċorca Ḋuiḃne. Bain súp as!"
-author: "Le Colm Ó hEartáin"
+author: "Colm Ó hEartáin"
 issueSlug: "2026-mean-fomhair"
 dialect: "munster"
 order: 9

@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 title: "An Teanga Ḃeo"
-author: "Le Luke Ó Floinn"
+author: "Luke Ó Floinn"
 issueSlug: "2026-mean-fomhair"
 dialect: "connacht"
 order: 5

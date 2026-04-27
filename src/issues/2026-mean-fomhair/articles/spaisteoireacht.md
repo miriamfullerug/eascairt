@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 title: "Ag spaisteoireaċt sa Spáinn"
 subtitle: "An saiḃreas atá le fáil sa taisteal mall"
-author: "Le hÁine Ní Ṡíoċáin"
+author: "Áine Ní Ṡíoċáin"
 issueSlug: "2026-mean-fomhair"
 dialect: "munster"
 order: 3

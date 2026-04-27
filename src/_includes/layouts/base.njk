@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
 
-    <link rel="preload" as="image" href="{{ '/assets/img/cover-image.png' | url(site.pathPrefix) }}" fetchpriority="high">
+    <link rel="preload" as="image" href="{{ '/assets/img/backgrounds/cover-image.png' | url(site.pathPrefix) }}" fetchpriority="high">
 
     <style>
       /* Critical CSS to avoid background “pop-in” before site.css loads */
@@ -26,7 +26,7 @@
 
       .siteBg {
         z-index: 0;
-        background-image: url('{{ "/assets/img/cover-image.png" | url(site.pathPrefix) }}');
+        background-image: url('{{ "/assets/img/backgrounds/cover-image.png" | url(site.pathPrefix) }}');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 60% 15%;
@@ -51,7 +51,7 @@
 
     {% if headContent %}{{ headContent | safe }}{% endif %}
   </head>
-  <body style="--site-bg-url: url('{{ '/assets/img/cover-image.png' | url(site.pathPrefix) }}');">
+  <body style="--site-bg-url: url('{{ '/assets/img/backgrounds/cover-image.png' | url(site.pathPrefix) }}');">
     <div class="siteBg" aria-hidden="true"></div>
     <div class="siteBgWash" aria-hidden="true"></div>
     <div class="wrap">

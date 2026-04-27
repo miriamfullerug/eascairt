@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 title: "Réaṁrá"
-author: "Le Caoiṁe Ní Ḃradáin"
+author: "Caoiṁe Ní Ḃradáin"
 issueSlug: "2026-mean-fomhair"          # must match the issue
 dialect: "ulster"               # or "munster" / "ulster"
 order: 1                          # controls ordering + prev/next within the issue

@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 title: "Aṫḃeoċan an Ċumainn Drámaíoċta"
-author: "Le Fiona Janssen"
+author: "Fiona Janssen"
 issueSlug: "2026-mean-fomhair"
 dialect: "connacht"
 order: 2

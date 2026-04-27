@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 title: "An Fearr Gaeilge Ḃriste ná Béarla Cliste?"
-author: "Le Caoiṁe Ní Ḃradáin"
+author: "Caoiṁe Ní Ḃradáin"
 issueSlug: "2026-mean-fomhair"
 dialect: "ulster"
 order: 8

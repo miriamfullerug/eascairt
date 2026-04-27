@@ -14,7 +14,13 @@ headContent: |
     {% if subtitle %}
       <p class="subtitle">{{ subtitle }}</p>
     {% endif %}
-    <p class="meta authorMeta">{{ author }}</p>
+    <p class="meta authorMeta">
+      {% if authors %}
+        {{ authors | authorBylineList }}
+      {% else %}
+        {{ author | authorByline }}
+      {% endif %}
+    </p>
 
     <div class="abairPlayer">
       <div id="abair-player"></div>

@@ -3,12 +3,13 @@
     <a href="{{ '/' | url(site.pathPrefix) }}">
       <div class="brandTitle">{{ site.title }}</div>
     </a>
-    <div class="brandTagline">Iris nua Ollscoil na Gailliṁe</div>
+    <div class="brandTagline">Iris nua Ollscoil na Gaillimhe</div>
   </div>
-  {% if page.url != "/" %}
-    <div class="siteHeaderRight">
+  <div class="siteHeaderRight">
+    {% if page.url != "/" %}
       <a class="homeBtn" href="{{ '/' | url(site.pathPrefix) }}">Baile</a>
-    </div>
-  {% endif %}
+    {% endif %}
+    <a class="homeBtn" href="{{ '/fuinn/' | url(site.pathPrefix) }}">Fúinn</a>
+  </div>
 </header>
 

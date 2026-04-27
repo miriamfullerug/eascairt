@@ -1,7 +1,7 @@
 ---
 layout: layouts/article.njk
 title: "Teaċ Ceann Tuí"
-author: "Le Colm Seoiġe"
+author: "Colm Seoiġe"
 issueSlug: "2026-mean-fomhair"
 dialect: "connacht"
 order: 10

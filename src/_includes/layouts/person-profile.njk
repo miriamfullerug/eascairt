@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+---
+
+<p class="kicker">
+  <a href="{{ '/fuinn/' | url(site.pathPrefix) }}">← Ar ais</a>
+</p>
+
+<section class="paperPanel">
+  {% if photo %}
+    <p style="margin: 0 0 2px; text-align: center;">
+      <img
+        src="{{ photo | url(site.pathPrefix) }}"
+        alt="Portráid de {{ title }}"
+        style="max-height: 250px; width: auto;"
+      />
+    </p>
+  {% endif %}
+
+  <h1 style="margin-top: 0; margin-bottom: 10px; text-align: center;">{{ title }}</h1>
+
+  {% if content %}
+    <div class="prose">
+      {{ content | safe }}
+    </div>
+  {% endif %}
+</section>
+
