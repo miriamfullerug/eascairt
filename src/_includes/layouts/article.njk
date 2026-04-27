@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 headContent: |
-  <script defer src="https://phoneticsrv3.lcs.tcd.ie/abair_webreader/js/abair-web-ui.js"></script>
+  <script defer src="https://phoneticsrv3.lcs.tcd.ie/abair_webreader/js/abair-web-ui.js" onerror="window.__abairLoadFailed = true"></script>
 ---
 
 <p class="kicker">
@@ -18,6 +18,9 @@ headContent: |
 
     <div class="abairPlayer">
       <div id="abair-player"></div>
+      <p id="abair-status" hidden style="margin:10px 0 0; font-size:0.95rem; opacity:0.85;">
+        Níl an seinnteoir ABAIR ar fáil faoi láthair (b'fhéidir go bhfuil an freastalaí thíos).
+      </p>
     </div>
 
     <div id="alt-corp" class="prose{% if poem %} poemBody{% endif %}" data-dialect="{{ dialect | default('') }}">
@@ -53,6 +56,12 @@ headContent: |
   }
 
   document.addEventListener('DOMContentLoaded', function () {
+    function setAbairStatusVisible(visible) {
+      let el = document.getElementById('abair-status')
+      if (!el) { return }
+      el.hidden = !visible
+    }
+
     // The ABAIR web component can hydrate after DOMContentLoaded,
     // so we retry briefly until the <abair-wr-ui> element exists.
     positionAbairWebreader()
@@ -62,8 +71,18 @@ headContent: |
       positionAbairWebreader()
       if (document.querySelector('abair-wr-ui') || attempts >= 20) {
         clearInterval(timer)
+        if (!document.querySelector('abair-wr-ui')) {
+          setAbairStatusVisible(true)
+        }
       }
     }, 250)
+
+    // If the ABAIR script errors quickly, show the fallback sooner.
+    setTimeout(function () {
+      if (window.__abairLoadFailed && !document.querySelector('abair-wr-ui')) {
+        setAbairStatusVisible(true)
+      }
+    }, 0)
   })
 </script>
 
