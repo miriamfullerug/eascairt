@@ -5,7 +5,7 @@ author: "Le Colm Seoiġe"
 issueSlug: "2026-mean-fomhair"
 dialect: "connacht"
 order: 10
-permalink: "issues/2026-mean-fomhair/teach-ceann-tui/index.html"
+permalink: "eagrain/2026-mean-fomhair/teach-ceann-tui/index.html"
 ---
 
 Teach ceann tuí  

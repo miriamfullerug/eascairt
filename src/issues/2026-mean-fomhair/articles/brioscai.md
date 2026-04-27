@@ -5,7 +5,7 @@ author: "Le Miriam Nic an Úcaire"
 issueSlug: "2026-mean-fomhair"
 dialect: "connacht"
 order: 11
-permalink: "issues/2026-mean-fomhair/brioscai/index.html"
+permalink: "eagrain/2026-mean-fomhair/brioscai/index.html"
 ---
 
 Níor cáineadh na brioscaí seo ach uair amháin riamh.

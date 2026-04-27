@@ -6,7 +6,7 @@ author: "Le hÁine Ní Ṡíoċáin"
 issueSlug: "2026-mean-fomhair"
 dialect: "munster"
 order: 3
-permalink: "issues/2026-mean-fomhair/spaisteoireacht/index.html"
+permalink: "eagrain/2026-mean-fomhair/spaisteoireacht/index.html"
 ---
 Siúladh an Camino de Santiago den chéad uair sa naoú céad. Shiúil mé an Camino don chéad uair naoi lá ó shin. Tá na spuaice fós do mo chrá, agus táid fós pianmhar, ach ar a laghad, déarfainn go bhfuil ag éirí níos fearr liom ná an chéad duine a shiúil an tslí tráth dá raibh.
 

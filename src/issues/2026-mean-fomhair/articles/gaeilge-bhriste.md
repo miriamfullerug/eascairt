@@ -5,7 +5,7 @@ author: "Le Caoiṁe Ní Ḃradáin"
 issueSlug: "2026-mean-fomhair"
 dialect: "ulster"
 order: 8
-permalink: "issues/2026-mean-fomhair/gaeilge-bhriste/index.html"
+permalink: "eagrain/2026-mean-fomhair/gaeilge-bhriste/index.html"
 ---
 
 Nuair a chluintear an seanfhocal “Is fearr Gaeilge bhriste ná Béarla cliste”, is minic a smaoinítear ar ‘athbheochan’ nó ar ‘spreagadh teangaidh’. Mar sin de, cad tuige a gcuirtear an seanfhocal seo i bhfoirm cheisteach sa teideal? Ó dhearcadh an fhoghlaimeora, spreagann an seanfhocal muinín iontu chun ‘cúpla focal’ a úsáid anois agus arís, gan glacadh le freagracht na teangaidh. I gcás na nGael de, cén maitheas atá i gceist le focla Béarla a spré i measc ár dteangaidh?

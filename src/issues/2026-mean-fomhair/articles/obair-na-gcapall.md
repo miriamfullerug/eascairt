@@ -5,7 +5,7 @@ author: "Le Luke Ó Floinn"
 issueSlug: "2026-mean-fomhair"
 dialect: "connacht"
 order: 4
-permalink: "issues/2026-mean-fomhair/obair-na-gcapall/index.html"
+permalink: "eagrain/2026-mean-fomhair/obair-na-gcapall/index.html"
 poem: true
 ---
 

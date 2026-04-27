@@ -6,7 +6,7 @@ author: "le Néaṁann Ní Ḋonnġaile"
 issueSlug: "2026-mean-fomhair"
 dialect: "ulster"
 order: 7
-permalink: "issues/2026-mean-fomhair/aistear/index.html"
+permalink: "eagrain/2026-mean-fomhair/aistear/index.html"
 ---
 
 Is mise Néamhann agus is as contae Thír Eoghain dom. Tá mé ar an darna duine is óige i dteaghlach de sheisear páistí agus tógadh le Gaeilge muid. Is i nGaeilge a thug mé faoi m’oideachas bunscolaíochta is meánscolaíochta fosta agus bhí an t-ádh orm an cúrsa Gaeilge agus Léann an Aistriúcháin a dhéanamh in Ollscoil na Gaillimhe. Bhain mé céim amach ansin cúpla bliain ó shin agus is saoraistritheoir anois mé.

@@ -5,7 +5,7 @@ author: "Le hÍde Ní Ifearnáin"
 issueSlug: "2026-mean-fomhair"
 dialect: "munster"
 order: 6
-permalink: "issues/2026-mean-fomhair/taighde/index.html"
+permalink: "eagrain/2026-mean-fomhair/taighde/index.html"
 ---
 
 Tá os cionn 64000 duine in Éirinn a bhfuil néaltrú orthu. Ceaptar go n-ardóidh sé sin go 150000 faoi 2045. Tá sé an-tábhachtach go mbraithfí ar an néaltrú go luath i dtreo is gur féidir an chóir leighis chuí a chur i bhfeidhm. Mar sin, ba cheart inrochtaineacht na scagthástála a mhéadú. Tá réimse tástálacha ann a úsáidtear i mbrath néaltraithe. Ina measc, tá Tástáil Chognaíoch Montréal (MoCA). Úsáidtear an MoCA mar uirlis chun scagthástáil a dhéanamh le haghaidh lagú cognaíoch éadrom. Is céim é lagú cognaíoch éadrom a idirdhealaíonn gnáthathruithe cognaíocha a bhaineann le héirí níos sine agus athruithe a bhaineann le néaltrú. Déantar tástáil ar fheidhmiúchán, aird, teanga, teibiú, cuimhne, agus treoshuíomh. Tá an MoCA ar fáil in os cionn 100 teanga agus canúint faoi láthair …ach níl an Ghaelainn ina measc. 

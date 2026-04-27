@@ -5,7 +5,7 @@ author: "Le Luke Ó Floinn"
 issueSlug: "2026-mean-fomhair"
 dialect: "connacht"
 order: 5
-permalink: "issues/2026-mean-fomhair/an-teanga-bheo/index.html"
+permalink: "eagrain/2026-mean-fomhair/an-teanga-bheo/index.html"
 ---
 Más rud é go bhfuil tú ag iarradh feabhas a chur ar do chuid Gaeilge agus níos mó a fhoghlaim faoi fhoghraíocht na Gaeilge, mholfainn duit ceann go na leabhra sa tsraith “An Teanga Bheo” a phiocadh suas. Is sraith leabhra beaga iad ina dtugtar eolas faoi Ghaeilge Chonamara, faoi Ghaeilge Uladh, agus faoi Ghaeilge Chorca Dhuibhne. Is leabhra iad go mhic léinn, go mhúinteoirí, go chraoltóirí agus go chuairteoirí na Gaeltachta agus déanann siad cur síos cruinn ar ghnéithe éagsúla na teanga, idir bhriathra agus fhuaimniú. Ceannaíodh an leabhar ar Ghaeilge Chonamara (a scríobh Séamus Ó Murchú) dhom go mo bhreithlá. Is leabhar beag í ach bíonn blas ar an mbeagán. Bhí iontas orm leis an méid saibhris atá sa leabhar beag seo. Tagaim ar ais chuige ó am go chéile chun léamh tríd arís agus tagann rudaí beaga nua chun cinn gach uair.
 

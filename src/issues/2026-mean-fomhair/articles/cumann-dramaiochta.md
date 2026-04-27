@@ -5,7 +5,7 @@ author: "Le Fiona Janssen"
 issueSlug: "2026-mean-fomhair"
 dialect: "connacht"
 order: 2
-permalink: "issues/2026-mean-fomhair/cumann-dramaiochta/index.html"
+permalink: "eagrain/2026-mean-fomhair/cumann-dramaiochta/index.html"
 ---
 
 Sa bhliain acadúil 2024/25, tháinig athbhláthú ar an Chumann Drámaíochta in Ollscoil na Gaillimhe. Le blianta anuas, d’imigh spéis sa Chumann Drámaíochta i léig, sa tréimhse 2014-2024. Buaileadh buille mór ar an gCumann de réir na mblianta de bharr easpa airgid, treoraithe agus spreagtha. Chun an Cumann a chur i mbéal an phobail arís, bhí orthu dream díograiseach a thabhairt le chéile. 

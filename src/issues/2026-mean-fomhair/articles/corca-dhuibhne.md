@@ -6,7 +6,7 @@ author: "Le Colm Ó hEartáin"
 issueSlug: "2026-mean-fomhair"
 dialect: "munster"
 order: 9
-permalink: "issues/2026-mean-fomhair/corca-dhuibhne/index.html"
+permalink: "eagrain/2026-mean-fomhair/corca-dhuibhne/index.html"
 ---
 
 ### Sóisialta

@@ -5,7 +5,7 @@ author: "Le Caoiṁe Ní Ḃradáin"
 issueSlug: "2026-mean-fomhair"          # must match the issue
 dialect: "ulster"               # or "munster" / "ulster"
 order: 1                          # controls ordering + prev/next within the issue
-permalink: "issues/2026-mean-fomhair/reamhra/index.html"
+permalink: "eagrain/2026-mean-fomhair/reamhra/index.html"
 ---
 Dia daoibh a chairde, is mise Caoimhe Ní Bhradáin, eag­arthóir agus bunaitheoir Eascairt. Is mac léinn fhochéime le Léann an Aistriúcháin agus Spáinnis mé. 
 
