@@ -8,7 +8,8 @@ order: 11
 permalink: "eagrain/2026-mean-fomhair/brioscai/index.html"
 ---
 
-Níor cáineadh na brioscaí seo ach uair amháin riamh. 
+Níor cáineadh na brioscaí seo ach uair amháin riamh.
+
 Dúirt fear as Conamara liom gur deacair a rá cé acu ba mheasa – mo chuid tiomána nó mo chuid brioscaí. Bhí an briosca ite aige sular chríochnaigh sé an abairt, áfach. Glacfaimid leis, mar sin, gur ardmholadh do mo chuid tiomána a bhí ann.
 
 Rinne mé gach sórt oidis brioscaí a thriail thar na blianta, ach ní dheachaigh aon cheann acu i gcion go mór orm go dtí gur tháinig mé ar an gceann seo. Níor fhill mé ar oideas eile ó shin. Agus anois, de bharr éileamh an phobail, tá an rún á scaoileadh agam faoi dheireadh.  
