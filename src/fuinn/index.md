@@ -9,8 +9,8 @@ permalink: "fuinn/index.html"
 </p>
 
 <section class="paperPanel">
-  <h2 style="text-align: center;">Scríḃneoirí &amp; Ealaíontóirí</h2>
-  <ul class="list" aria-label="Liosta scríḃneoirí agus ealaíontóirí">
+  <h2 style="text-align: center;">Scríḃneoirí</h2>
+  <ul class="list" aria-label="Liosta scríḃneoirí">
     {% for p in collections.people %}
       <li class="listItem">
         <p class="listTitle" style="margin:0;">
